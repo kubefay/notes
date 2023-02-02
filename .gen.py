@@ -18,7 +18,7 @@ for root, dirs, files in os.walk("."):
 
     for name in files:
         file_name = os.path.basename(name)
-        file_name = file_name.split('.')[1].strip()
+        file_name = file_name.strip()[:-3]
         
         # result.append(f'[{file_name}]({root[2:]}/{name})\n')
         result.append(f'''<a href="{root[2:]}/{name}">{file_name}</a>\n''')
