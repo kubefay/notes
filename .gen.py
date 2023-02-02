@@ -2,9 +2,8 @@ import os
 
 # for one dir, the sub dir should 
 
-'''
-[this subtext](subpro/subtext.md)
-'''
+
+os.remove('ReadMe.md')
 
 result = []
 for root, dirs, files in os.walk("."):
@@ -21,6 +20,8 @@ for root, dirs, files in os.walk("."):
         file_name = file_name.strip()[:-3]
         
         # result.append(f'[{file_name}]({root[2:]}/{name})\n')
-        result.append(f'''<a href="{root[2:]}/{name}">{file_name}</a>\n''')
+        result.append(f'''<a href="{root[2:]}/{name}">{file_name}</a>\n\n''')
 
-print(''.join(result))
+with open ('ReadMe.md','w') as f:
+    f.write('# Tech笔记\n')
+    f.write(''.join(result))
