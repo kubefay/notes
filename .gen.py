@@ -9,7 +9,7 @@ result = []
 for root, dirs, files in os.walk("."):
     # if root == '.git':
     #     continue
-    if root.startswith('./.git') or root == '.':
+    if root.startswith('./.git') or root == '.' or root == '_config.yaml':
         continue
     if not files:
         continue
