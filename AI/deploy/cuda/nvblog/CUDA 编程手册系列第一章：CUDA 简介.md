@@ -1,4 +1,4 @@
-![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/uploads/sites/2/2022/04/CUDA-toolkit-featured.png)
+﻿![](https://developer-blogs.nvidia.com/zh-cn-blog/wp-content/uploads/sites/2/2022/04/CUDA-toolkit-featured.png)
 
 本项目为CUDA官方手册的中文翻译版，有个人翻译并添加自己的理解。主要介绍CUDA编程模型和接口。
 

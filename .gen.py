@@ -25,3 +25,8 @@ for root, dirs, files in os.walk("."):
 with open ('ReadMe.md','w') as f:
     f.write('# Tech笔记\n')
     f.write(''.join(result))
+
+'''
+find ./ -type f -name "*.md" -print | xargs -i sed -i '1 s/^/\xef\xbb\xbf&/' {}
+
+'''
