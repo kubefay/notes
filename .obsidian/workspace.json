@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.50052642822266
+    "width": 417.50052642822266,
+    "collapsed": true
   },
   "right": {
     "id": "1c3c35ee58d12178",
@@ -194,8 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d9f6dd500541a22",
+  "active": "0cd2a40d8d1815a6",
   "lastOpenFiles": [
+    "Pasted image 20250809113803.png",
+    "Pasted image 20250809113206.png",
+    "Pasted image 20250809113132.png",
+    "Pasted image 20250809113112.png",
+    "Pasted image 20250809112416.png",
+    "Pasted image 20250809112218.png",
+    "Pasted image 20250809112120.png",
+    "Pasted image 20250809111547.png",
+    "Pasted image 20250809111028.png",
     "人工智能.md",
     "CUDA教程.md",
     "未命名",
